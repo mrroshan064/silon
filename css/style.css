@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: boder-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin:0px auto;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding:10px 20px; 
+}
+
+.leftheader .rightheader span{
+    padding:20px;
+
+}
+.space{
+    padding:10px;
+}
+
+.headersection{
+    width:70%;
+    height:120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin:0px auto;
+    padding:0px 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+nav{
+    font-size: 16px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:0px 20px;
+
+}
+nav ul li a{
+    text-decoration:none;
+    color:#000;
+    cursor:pointer;
+}
+nav ul li a:hover{
+    color:red;
+
+}
+
+.searchcartheart i{
+    padding: 5px;
+    cursor:ponter;
+    position:relative;
+    
+}
+.searchcartheart i:hover{
+    color:red;
+
+}
+.searchcartheart .top{
+    position: absolute;
+    background: red;
+    border-radius:80z%;
+    bottom:18px;
+  
+}
+
+.bannersection{
+    background: #f9bac3;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.bannercontent{
+    display: block;
+    margin-left:200px;
+    text-align: center;
+    padding:5px;
+}
+
+.bannercontent h1{
+    margin-top:24px;
+    font-size:64px;   
+    word-spacing: 5px;
+}
+
+.bannercontent span{
+    letter-spacing: 5px;
+}
+
+.banner img{
+    height:600px;
+}
+
+.cta{
+    background:#ff5353;
+    padding:15px 50px;
+    border-radius:10px; 
+    cursor:pointer; 
+    margin-top:24px;
+}
+
+.cta:hover{
+    background:#fff; 
+}
+.product{
+    width:100%;
+    text-align:center;
+    margin-top:50px;
+}
+ div.product{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight:700;
+}
+.priductimg{
+    width:75%;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    margin:50px auto;
+}
+div.productx {
+    padding:15px;
+    
+}
+div.productx h5{
+    margin:10px;
+}
+.offersection{
+    background: #f9bac3;
+    width:100%;
+    height:420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.offer{
+    text-align:center;
+    margin-left:250px;
+    text-transform: uppercase;
+}
+.offer h1{
+    font-size: 32px;
+    font-style: italic;
+    font-family:cursive;
+}
+.offer h4{
+    padding:40px;  
+    font-size: 28px; 
+    font-weight:lighter; 
+}
+.offer .btn-default{
+    background:#ff5353;
+    padding:10px 30px;
+    color:white;
+    margin-top:40px;
+}
+.offerimg{
+    height:400px;
+    margin-left:20px;
+}
+
+
